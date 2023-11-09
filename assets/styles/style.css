@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: "poppins, serif";
+  font-family: poppins, serif;
 }
 
 header {
@@ -173,8 +173,7 @@ header {
 
 .hb1-a {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 .hb1-a img {
