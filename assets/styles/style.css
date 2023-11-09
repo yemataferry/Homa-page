@@ -424,9 +424,15 @@ header {
   padding-left: 0.5rem;
 }
 
+.fp1a, .fp1b {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .first-block-pic img {
-  width: 19rem;
-  height: 17rem;
+  width: 8rem;
+  height: 6rem;
   border: 1px solid white;
   border-radius: 1rem;
   border-top: 0;
@@ -436,19 +442,25 @@ header {
 }
 
 .second-block-pic img {
-  width: 19rem;
-  height: 17rem;
+  width: 8rem;
+  height: 6rem;
   border: 1px solid white;
   border-radius: 1rem;
   border-top: 0;
   border-top-right-radius: 15rem;
   border-top-left-radius: 15rem;
   border-bottom: 17rem;
+}
+
+.fp2a, .fp2b {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .third-block-pic img {
-  width: 19rem;
-  height: 17rem;
+  width: 8rem;
+  height: 6rem;
   border: 1px solid white;
   border-radius: 1rem;
   border-top: 0;
@@ -457,15 +469,27 @@ header {
   border-bottom: 17rem;
 }
 
+.fp3a, .fp3b {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .fourth-block-pic img {
-  width: 19rem;
-  height: 15rem;
+  width: 8rem;
+  height: 6rem;
   border: 1px solid white;
   border-radius: 1rem;
   border-top: 0;
   border-top-right-radius: 15rem;
   border-top-left-radius: 15rem;
   border-bottom: 17rem;
+}
+
+.fp4a, .fp4b {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .join-now button {
