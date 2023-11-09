@@ -7,12 +7,12 @@ The project is about promoting the selling of Houses, Apartments and Lands.
 ## Discover
      This section is conern with the exposition of houses and apartments, view the images and select the desired house
    ![houses-for-sale](./assets/image/houses%20readme.png)
-   ## Explore popular city
-   This section is concern with the exposition of lands for sale and their various location on the map 
-    ![land-location-for-sale](./assets/image/land-location.png)
+## Explore popular city
+     This section is concern with the exposition of lands for sale and their various location on the map 
+   ![land-location-for-sale](./assets/image/land-location.png)
 
 ## Project Technical
-## Built with:
+## Built with
     HTML and CSS
 ## How to install and run the project
     - Go to your playstore for androids and appstore for apple phones and type Homa,
