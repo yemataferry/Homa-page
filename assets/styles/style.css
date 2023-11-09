@@ -424,7 +424,8 @@ header {
   padding-left: 0.5rem;
 }
 
-.fp1a, .fp1b {
+.fp1a,
+.fp1b {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -452,7 +453,8 @@ header {
   border-bottom: 17rem;
 }
 
-.fp2a, .fp2b {
+.fp2a,
+.fp2b {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -469,7 +471,8 @@ header {
   border-bottom: 17rem;
 }
 
-.fp3a, .fp3b {
+.fp3a,
+.fp3b {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -486,7 +489,8 @@ header {
   border-bottom: 17rem;
 }
 
-.fp4a, .fp4b {
+.fp4a,
+.fp4b {
   display: flex;
   justify-content: center;
   gap: 1rem;
