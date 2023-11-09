@@ -429,6 +429,10 @@ header {
   height: 17rem;
   border: 1px solid white;
   border-radius: 1rem;
+  border-top: 0;
+  border-top-right-radius: 15rem;
+  border-top-left-radius: 15rem;
+  border-bottom: 17rem;
 }
 
 .second-block-pic img {
@@ -436,6 +440,10 @@ header {
   height: 17rem;
   border: 1px solid white;
   border-radius: 1rem;
+  border-top: 0;
+  border-top-right-radius: 15rem;
+  border-top-left-radius: 15rem;
+  border-bottom: 17rem;
 }
 
 .third-block-pic img {
@@ -443,13 +451,21 @@ header {
   height: 17rem;
   border: 1px solid white;
   border-radius: 1rem;
+  border-top: 0;
+  border-top-right-radius: 15rem;
+  border-top-left-radius: 15rem;
+  border-bottom: 17rem;
 }
 
 .fourth-block-pic img {
   width: 19rem;
-  height: 17rem;
+  height: 15rem;
   border: 1px solid white;
   border-radius: 1rem;
+  border-top: 0;
+  border-top-right-radius: 15rem;
+  border-top-left-radius: 15rem;
+  border-bottom: 17rem;
 }
 
 .join-now button {
@@ -481,7 +497,7 @@ header {
 
 .map-images img {
   width: 19rem;
-  height: 17rem;
+  height: 15rem;
   border: 1px solid white;
   border-radius: 1rem;
   padding-right: 0.5rem;
