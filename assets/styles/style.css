@@ -194,8 +194,8 @@ body {
 .hb1-a img,
 .hb1-c img,
 .hb1-d img {
-  width: 19rem;
-  height: 17rem;
+  width: 100%;
+  height: 70%;
   border: 1px solid white;
   border-radius: 1rem;
 }
@@ -237,8 +237,8 @@ body {
 .hb2-a img,
 .hb2-b img,
 .hb2-c img {
-  width: 19rem;
-  height: 17rem;
+  width: 100%;
+  height: 70%;
   border: 1px solid white;
   border-radius: 1rem;
   padding-top: 0.7rem;
@@ -256,7 +256,7 @@ body {
 .hb2-c {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
   padding: 0.7rem;
 }
 
@@ -435,6 +435,13 @@ body {
   border-radius: 0.7rem;
 }
 
+.map-images img {
+  width: 19rem;
+  height: 15rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
 .map-images {
   justify-content: center;
   gap: 0.6rem;
@@ -496,13 +503,6 @@ body {
   font-size: 0.8rem;
   text-align: center;
   padding-bottom: 1rem;
-}
-
-.map-images img {
-  width: 19rem;
-  height: 15rem;
-  border: 1px solid white;
-  border-radius: 1rem;
 }
 
 .map-images h3 {
@@ -820,8 +820,8 @@ footer {
   .third-block-pic img,
   .fourth-block-pic img,
   .block-pic .first-block-pic img {
-    width: 7rem;
-    height: 6rem;
+    width: 5rem;
+    height: 4rem;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   }
 
