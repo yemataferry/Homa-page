@@ -14,12 +14,12 @@
 .arrow-border2,
 .sec-arrow1,
 .sec-arrow2 {
-	display: none;
+  display: none;
 }
 
 header,
 .section-1 {
-  background-image:  linear-gradient(to bottom, rgba(54, 68, 151, 0.52), rgba(128, 31, 103, 0.73)), url("../image/new\ background.jpg");
+  background-image: linear-gradient(to bottom, #36449785, #801f67ba), url("../image/new\ background.jpg");
   background-attachment: fixed;
 }
 
@@ -45,7 +45,7 @@ body {
   height: 100%;
   gap: 0.5rem;
   padding-left: 1rem;
-	padding-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .logo-title {
@@ -122,8 +122,8 @@ body {
 }
 
 #filter {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   border: 1px solid lightgray;
   border-radius: 20rem;
   padding: 10px;
@@ -177,7 +177,7 @@ body {
 
 .houses-block1 {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -209,12 +209,12 @@ body {
 }
 
 .hb1-b h3 {
-	text-align: center;
+  text-align: center;
 }
 
 .hb1-bi {
   text-align: center;
-} 
+}
 
 .hb1-bix {
   font-size: 1rem;
@@ -250,7 +250,7 @@ body {
 }
 
 .hb2-c h5 {
-	text-align: center;
+  text-align: center;
 }
 
 .hb2-c {
@@ -417,7 +417,8 @@ body {
   gap: 1rem;
 }
 
-.block-pic .first-block-pic img,
+.block-pic
+.first-block-pic img,
 .second-block-pic img,
 .third-block-pic img,
 .fourth-block-pic img {
@@ -464,7 +465,7 @@ body {
 
 .map {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   padding: 1rem;
 }
@@ -598,7 +599,8 @@ footer {
   padding-top: 1.7rem;
 }
 
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
+
 body {
   margin: 0 0.5rem;
 }
