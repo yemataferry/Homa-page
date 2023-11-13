@@ -28,8 +28,8 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding-top: 6rem;
+  gap: 3px;
+  padding-top: 5rem;
 }
 
 .logo {
@@ -38,7 +38,7 @@ header {
   height: 100%;
   gap: 0.5rem;
   padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .logo-title {
@@ -51,7 +51,7 @@ header {
   font-size: 1.3rem;
   color: white;
   padding-left: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .discover-box1 {
@@ -101,7 +101,7 @@ header {
   border: 1px solid lightgray;
   border-radius: 20rem;
   padding: 10px;
-  margin: 0.4rem;
+  margin: 0.2rem;
   opacity: 0.7;
 }
 
@@ -109,7 +109,7 @@ header {
   border: 1px solid lightgray;
   border-radius: 20rem;
   padding: 10px;
-  margin: 0.4rem;
+  margin: 0.2rem;
   opacity: 0.7;
 }
 
@@ -117,7 +117,7 @@ header {
   border: 1px solid lightgray;
   border-radius: 20rem;
   padding: 10px;
-  margin: 0.4rem;
+  margin: 0.2rem;
   opacity: 0.7;
 }
 
@@ -128,7 +128,7 @@ header {
   padding: 10px;
   color: white;
   text-align: center;
-  margin: 0.4rem;
+  margin: 0.2rem;
 }
 
 .discovery {
@@ -178,11 +178,7 @@ header {
 
 .hb1-a {
   display: flex;
-  flex-flow: column wrap;
-}
-
-.hb1-a h4 {
-  padding-top: 1rem;
+  flex-direction: column;
 }
 
 .hb1-a img {
@@ -263,6 +259,7 @@ h3 {
   flex-direction: column;
   gap: 2rem;
   padding: 0.7rem;
+  justify-content: center;
 }
 
 .hb2-cx {
@@ -513,12 +510,13 @@ h3 {
   font-size: 0.9rem;
   opacity: 0.7;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .d-title {
   text-align: center;
   position: relative;
-  top: 1.2rem;
+  top: 1.4rem;
   font-size: 1.5rem;
 }
 
