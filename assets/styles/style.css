@@ -648,14 +648,14 @@ footer {
     border-radius: 5rem;
     background-color: #b9e661;
     font-size: 0.8rem;
-    padding: 0.2rem 0.2rem;
+    padding: 0.2rem;
   }
 
   .section-1 {
     display: grid;
     grid-template-columns: 45% 50%;
     gap: 1rem;
-    padding: 3rem 0 ;
+    padding: 3rem 0;
   }
 
   .box-1 {
@@ -794,10 +794,33 @@ footer {
     font-size: 3rem;
   }
 
-  .block-pic .first-block-pic img,
+  .last-block img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .second-block img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .d-pic img {
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  .map {
+    background-color: #f0ebeb;
+    margin: 2rem 0;
+    width: 100%;
+    justify-content: center;
+  }
+
   .second-block-pic img,
   .third-block-pic img,
-  .fourth-block-pic img {
+  .fourth-block-pic img,
+  .block-pic .first-block-pic img {
     width: 7rem;
     height: 6rem;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
@@ -818,13 +841,6 @@ footer {
   .join-now button {
     font-size: 1.3rem;
     width: 17%;
-  }
-
-  .map {
-    background-color: #f0ebeb;
-    margin: 2rem 0;
-    width: 100%;
-    justify-content: center;
   }
 
   .map-text h1 {
@@ -849,12 +865,6 @@ footer {
     top: 2rem;
   }
 
-  .d-pic img {
-    justify-content: center;
-    width: 100%;
-    height: 70%;
-  }
-
   .d-text {
     display: flex;
     justify-content: space-between;
@@ -876,18 +886,7 @@ footer {
     padding-top: 2rem;
   }
 
-  .second-block img {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .last-block img {
-    width: 3rem;
-    height: 3rem;
-  }
-
   .last-block h3 {
     font-size: 2rem;
   }
-  
 }
